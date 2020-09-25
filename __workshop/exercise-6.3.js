@@ -6,6 +6,12 @@ function exercise6_3() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  for (let inter = 1; inter < 51; inter++) {
+    if (inter % 2 === 0) {
+      console.log(inter);
+    }
+  }
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

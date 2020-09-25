@@ -13,6 +13,11 @@ function exercise10() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+
+  for (let hashNum = 1; hashNum < 8; hashNum++) {
+    let hashRows = hashNum.toString().replace(hashNum, "#").repeat(hashNum);
+    console.log(hashRows);
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

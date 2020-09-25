@@ -20,6 +20,17 @@ function exercise13() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+
+  let fibArray = [0, 1];
+
+  for (let i = 1; i < 49; i++) {
+    let num1 = fibArray[fibArray.length - 2];
+    let num2 = fibArray[fibArray.length - 1];
+    fibArray.push(num1 + num2);
+  }
+
+  console.log(fibArray[49]);
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

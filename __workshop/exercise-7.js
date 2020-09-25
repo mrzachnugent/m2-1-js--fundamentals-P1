@@ -23,6 +23,15 @@ function exercise7() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  for (let hour = 0; hour < 24; hour++) {
+    if (hour <= 5 || hour >= 22) {
+      console.log(`It's ${hour}h. Time to sleep!`);
+    } else if (hour == 6 || hour == 12 || hour == 18) {
+      console.log(`It's ${hour}h. Time to eat!`);
+    } else {
+      console.log(`It's ${hour}h. Time to train!`);
+    }
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

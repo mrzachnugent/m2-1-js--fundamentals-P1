@@ -7,8 +7,14 @@ function exercise8() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
-
+  let sum = 0;
+  for (let multiplesOfFour = 0; multiplesOfFour <= 5000; multiplesOfFour++) {
+    if (multiplesOfFour % 4 === 0) {
+      sum += multiplesOfFour;
+    }
+  }
   console.log(`The sum is ${sum}`);
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
